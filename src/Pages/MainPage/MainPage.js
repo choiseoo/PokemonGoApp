@@ -1,8 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-function MainPage() {
+const StyledHeader = styled.header
+`
 
+
+
+
+`
+function MainPage() {
+    <StyledHeader>PokemonGo!</StyledHeader>
 }
 
 export default MainPage;
